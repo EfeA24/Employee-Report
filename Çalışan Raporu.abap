@@ -28,7 +28,6 @@ SELECTION-SCREEN BEGIN OF BLOCK block1 WITH FRAME TITLE text-001.
 PARAMETERS: p_department TYPE zdepartment_info-department.
 SELECTION-SCREEN END OF BLOCK block1.
 
-* Start of selection
 START-OF-SELECTION.
   PERFORM get_employee_data_production.
   PERFORM get_employee_data_marketing.
